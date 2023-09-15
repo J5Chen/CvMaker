@@ -1,0 +1,32 @@
+.flex-container{
+  display:flex;
+}
+
+.flex-container div{
+  flex:1;
+  width:30vw;
+  margin-left: 5vw;
+}
+
+form {
+  margin-left: 10vw;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.preview{
+  background-color:#f5ebe0;
+  border: 2px solid black;
+  height: 85vh;
+  max-height: 95vh;
+  padding: 50px;
+}
+label,input,button{
+  display:flex;
+  flex-direction:column;
+}
+/*
+ul {
+  padding: 40px;
+}
+*/
